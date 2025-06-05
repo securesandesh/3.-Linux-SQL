@@ -78,3 +78,39 @@
 
 ## 📁 Project Structure
 
+CyberShield-Linux-SQL-Audit/
+├── System_Audit/
+│ ├── lynis_report.txt
+│ ├── chkrootkit_results.txt
+│ └── firewall_status.txt
+├── Database_Audit/
+│ ├── mysql_user_privileges.txt
+│ ├── sqlmap_scan_results.txt
+│ └── database_configuration_review.txt
+├── Scripts/
+│ ├── system_audit.sh
+│ └── database_audit.sh
+├── Recommendations/
+│ └── security_improvement_plan.pdf
+└── README.md
+
+
+---
+
+## 📚 References
+
+- [Lynis Documentation](https://cisofy.com/documentation/lynis/)
+- [chkrootkit Official Website](http://www.chkrootkit.org/)
+- [ufw Manual](https://help.ubuntu.com/community/UFW)
+- [Fail2Ban Documentation](https://www.fail2ban.org/wiki/index.php/Main_Page)
+- [SQLMap Project](https://sqlmap.org/)
+- [MySQL 8.0 Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/)
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates a systematic approach to auditing and enhancing the security of Linux systems and SQL databases. By identifying existing vulnerabilities and implementing recommended measures, CyberShield Corp can significantly improve its overall security posture and protect against potential threats.
+
+---
+
